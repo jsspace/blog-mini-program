@@ -1,0 +1,126 @@
+/* pages/post/post.wxss */
+@import "../../wxParse/wxParse.wxss";
+
+.content {
+  background: #fff;
+  border-top: 1px solid #f4f8fb;
+}
+
+.detail-title {
+  padding: 34rpx 24rpx 12rpx;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  word-break: normal;
+}
+
+.detail-content {
+  padding: 24rpx 24rpx 40rpx;
+  font-size: 14px;
+  color: #555;
+}
+
+.wxParse-p {
+  margin-bottom: 12rpx;
+  line-height: 24px;
+}
+
+.wxParse-pre {
+  padding: 20rpx;
+  margin-bottom: 12rpx;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.wxParse-blockquote {
+  margin-bottom: 12rpx;
+}
+
+.wxParse-pre {
+  background: #282c34;
+  overflow: auto;
+}
+
+.wxParse-pre .wxParse-code {
+  background: none;
+  padding: 0;
+  color: #fff;
+  overflow: auto;
+}
+
+.wxParse-table {
+  margin-bottom: 12rpx;
+}
+
+.token.block-comment, .token.cdata, .token.comment, .token.doctype,
+.token.prolog {
+  color: #999;
+}
+
+.token.punctuation {
+  color: #ccc;
+}
+
+.token.attr-name, .token.deleted, .token.namespace, .token.tag {
+  color: #e2777a;
+}
+
+.token.function-name {
+  color: #6196cc;
+}
+
+.token.boolean, .token.function, .token.number {
+  color: #f08d49;
+}
+
+.token.class-name, .token.constant, .token.property, .token.symbol {
+  color: #f8c555;
+}
+
+.token.atrule, .token.builtin, .token.important, .token.keyword, .token.selector {
+  color: #cc99cd;
+}
+
+.token.attr-value, .token.char, .token.regex, .token.string, .token.variable {
+  color: #7ec699;
+}
+
+.token.entity, .token.operator, .token.url {
+  color: #67cdcc;
+}
+
+.token.bold, .token.important {
+  font-weight: 700;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.inserted {
+  color: green;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.wxParse-li-circle {
+  width: 6px;
+  height: 6px;
+  background-color: #333;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.wxParse-code {
+  padding: 1px 8px;
+  background-color: #f9f2f4;
+  border-radius: 3px;
+}

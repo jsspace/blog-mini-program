@@ -1,0 +1,19 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+} 
+
+.content {
+  width: 100%;
+  background: #f4f8fb;
+}
+
+.post-list {
+  margin: 12rpx 24rpx 44rpx;
+}
+
+

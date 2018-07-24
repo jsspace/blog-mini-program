@@ -1,0 +1,10 @@
+<!--pages/post/post.wxml-->
+<import src="../../wxParse/wxParse.wxml" />
+<view class="container">
+  <view class="content">
+    <view class="detail-title">{{title}}</view>
+    <view class="detail-content">
+      <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+    </view>
+  </view>
+</view>
