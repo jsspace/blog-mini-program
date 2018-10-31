@@ -1,12 +1,31 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/post/post"
+    "pages/post/post",
+    "pages/hot/hot"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "SPACE的个人博客",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a1a1a1",
+    "selectedColor": "#4572ae",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./assets/imgs/home.png",
+        "selectedIconPath": "./assets/imgs/home_active.png"
+      },
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "热门",
+        "iconPath": "./assets/imgs/hot.png",
+        "selectedIconPath": "./assets/imgs/hot_active.png"
+      }
+    ]
   }
 }
