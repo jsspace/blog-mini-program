@@ -1,0 +1,66 @@
+.artical {
+  margin-top: 20px;
+  padding: 20rpx 24rpx 8rpx;
+  background: #fff;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.post-title {
+  font-size: 18px;
+  line-height: 28px;
+  color: #2a2935;
+}
+
+.post-meta {
+  padding: 11rpx 0 0;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.post-abstract {
+  padding: 20rpx 0;
+  border-bottom: 1px dashed #ddd;
+  line-height: 22px;
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+.post-tags {
+  display: block;
+  margin: 10rpx 0;
+  font-size: 12px;
+}
+
+.tag {
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 12px;
+  color: #32d3c3;
+  display: inline-block;
+  border-radius: 11.5px;
+  border: 1px solid #32d3c3;
+  padding: 5px 9px;
+  margin: 8rpx 8rpx 0 0;
+}
+
+.has-more {
+  padding: 24rpx 0 48rpx 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-btn {
+  display: inline-block;
+  line-height: 30px;
+  width: 180rpx;
+  text-align: center;
+  border-radius: 45px;
+  background-color: #32d3c3;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+  padding: 3px 20px;
+}

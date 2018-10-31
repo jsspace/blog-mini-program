@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="content">
+    <view class="post-list">
+      <view class="artical post" wx:for="{{articleList}}" wx:key="index" bindtap="toDetail" data-id="{{item._id}}">
+        <view class="post-title">{{item.title}}</view>
+        <view class="post-meta">{{item.createdAt}}</view>
+        <view class="post-abstract">{{item.abstract}}</view>
+        <view class="post-tags" wx:for="{{item.tags}}" wx:for-item="tag" wx:for-index="i" wx:key="i">
+          <view class="tag">{{tag}}</view>
+        </view>
+      </view>
+    </view>
+    <view class="has-more" wx:if="{{hasMore}}">
+      <view class="more-btn" bindtap="checkMore">查看更多</view>
+    </view>
+  </view>
+</view>
